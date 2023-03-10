@@ -77,6 +77,7 @@ p {
 
 .l-heading {
   font-size: 40px;
+  line-height: 1.2;
 }
 
 /* Padding */
@@ -124,7 +125,7 @@ float: left;
 
 /* Showcase */
 #showcase {
-  background: url('/img/1.jpg') no-repeat center center/cover;
+  background: url('../img/1.jpg') no-repeat center center/cover;
   height: 600px;
 }
 
@@ -153,7 +154,7 @@ line-height: 1.2em;
 #home-info .info-img {
   float: left;
   width: 50%;
-  background:url('/img/2.jpg') no-repeat center center/cover;
+  background:url('../img/2.jpg') no-repeat center center/cover;
   min-height: 100%;
 }
 
@@ -203,8 +204,8 @@ line-height: 1.2em;
 /* Testimonials */
 
 #testimonials {
-height: 600px;
-background: url('/img/4.jpg') no-repeat;
+height: 100%;
+background: url('../img/4.jpg') no-repeat;
 padding-top: 100px;
 }
 
@@ -226,8 +227,6 @@ padding-top: 100px;
   float: left;
   margin-right: 20px;
   border-radius: 50%;
-
-
 
 }
 
